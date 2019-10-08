@@ -6,10 +6,7 @@ idna==2.2
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
-ptyprocess==0.5.1
-pycups==1.9.73
 PyJWT==1.7.1
-pysmbc==1.0.15.6
 PySocks==1.7.1
 pytz==2019.3
 requests==2.12.4
