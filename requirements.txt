@@ -1,7 +1,6 @@
 chardet==2.3.0
 Click==7.0
 cryptography==1.7.1
-cupshelpers==1.0
 Flask==1.1.1
 gunicorn==19.9.0
 idna==2.2
