@@ -15,7 +15,6 @@ ptyprocess==0.5.1
 pyasn1==0.1.9
 pycrypto==2.6.1
 pycups==1.9.73
-pygobject==3.22.0
 PyJWT==1.7.1
 pysmbc==1.0.15.6
 PySocks==1.7.1
