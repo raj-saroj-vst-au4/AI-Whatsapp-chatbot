@@ -13,12 +13,12 @@ def sms_reply():
     """Respond to incoming calls with a simple text message."""
     # Fetch the message
     msg = request.form.get('Body')
-    number = request.form.get('From')
-    
+    number = request.form.get('From')    
     reply = fetch_reply(msg, number)
+
     # Create reply
     resp = MessagingResponse()
-    resp.message(reply)
+    resp.message("Hi raj")
 
     return str(resp)
 
