@@ -1,9 +1,9 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "whatsappbot-457f0-2da9f38fc73f.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "small-talk-dtyanf-322a1aeca2b5.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "whatsappbot-457f0"
+PROJECT_ID = "small-talk-dtyanf"
 
 def detect_intent_from_text(text, session_id, language_code='en'):
     session = dialogflow_session_client.session_path(PROJECT_ID, session_id)
@@ -13,5 +13,5 @@ def detect_intent_from_text(text, session_id, language_code='en'):
     return response.query_result
 
 def fetch_reply(query, session_id):
-    response = detect_intent_from_text(query, session_id)
-    response.fulfullment_text
+    response = detect_intent_from_text(query,session_id)
+    return response.fulfillment_text
