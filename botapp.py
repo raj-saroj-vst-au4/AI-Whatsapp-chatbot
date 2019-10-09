@@ -18,7 +18,7 @@ def sms_reply():
 
     # Create reply
     resp = MessagingResponse()
-    resp.message(reply))
+    resp.message(reply)
 
     return str(resp)
 
