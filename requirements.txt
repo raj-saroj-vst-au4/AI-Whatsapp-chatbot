@@ -24,5 +24,5 @@ rsa==4.0
 SecretStorage==2.3.1
 six==1.10.0
 twilio==6.31.1
-urllib3==1.25.6
+urllib3==1.25.8
 Werkzeug==0.16.0
